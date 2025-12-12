@@ -1,0 +1,90 @@
+.container4{
+    float: left;
+    height: 130px;
+    width: 100%;
+    font-size: larger;
+    font-weight: 700;
+    color:black;
+    background-color: burlywood;
+    
+}
+.name4 p{
+    float: left;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.menu4{
+    float:right;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -105px;
+    clear: both;
+}
+.menu4 ul{
+    list-style: none;
+}
+.menu4 li{
+    float: left;
+    margin-left: 170px;
+    margin-right: 60px;
+}
+
+.menu4 li a{
+    text-decoration: none;
+    color: black;
+}
+.con:hover {
+    background-color: white;
+}
+ /* .po:hover{
+    background-color: white;
+}  */
+ /* .ab:hover{
+    background-color: white;
+}  */
+ /* .ho:hover{
+    background-color: white;
+}  */
+  /* .pr:hover{
+    background-color: white;
+} */
+.container6{
+    float: left;
+    height: 600px;
+    width: 50%;
+    font-size: larger;
+    font-weight: 700;
+    color:black;
+    background-color: burlywood;
+    clear: both;
+    margin-top: 70px;
+    margin-left: 500px;
+}
+.heading6 h1{
+    clear: both;
+   float: left;
+   margin-left: 65px;
+    margin-top: 60px;
+}
+.img{
+    float: left;
+    margin-left: 190px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+.form{
+    float: left;
+    margin-left: 100px;
+    margin-top: -250px;
+}
+.container6 .form input[type="text"], .container6 .form input[type="email"], .container6 .form textarea{
+    width: 300px;
+    height: 20px;
+    margin-bottom: 30px;
+    padding-top:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
