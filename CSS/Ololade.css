@@ -1,46 +1,46 @@
 
-.body {
+body {
     margin: 0;
     padding: 0;
+    background-image: url("../Images/O3.JPEG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.con2{
+    height: 300px;
+    background-color: black;
 }
 
 
-.container1 {
-    height: 2000px;
-    width: 100%;
-    padding-top: 10px;
-    font-size: larger;
-    font-weight: 700;
-    background-image: url("../Images/O3.JPEG");
-    background-position: contain ;
-    background-repeat: no-repeat;
-    color:black;
+.cont1{
+   height: 720px;
+    padding-top: 30px;
 }
 
 .name p{
-    float: left;
-    margin-left: 100px;
     font-size: 50px;
 }
 
 .menu  {
-    float:right;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 50px;
+
+    margin-top: 20px;
     
 }
 .menu ul{
     list-style: none;
 }
 .menu li{
-    float: left;
-    margin-left: 170px;
-    margin-right: 60px;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 20px;
 
 }
 .menu li a{
     text-decoration: none;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
 }
 /* .con:hover {
     background-color: white;
@@ -58,50 +58,42 @@
     background-color: white;
 } */
 
+
 .heading1{
-    clear: both;
-    margin-left: 100px;
-    font-size: 50px;
-    margin-top: 50px;
-    padding-top: 120px;
+    margin-top: 80px;
 }
 
-.heading1 p{
-    margin-top: 250px;
-    margin-left: 100px;
-}
 
 .heading1 p h1{
 color: black;
-
 
 }
 .welcomenote {
     width: 350px;
     height: 250px;
-    float: left;
     color:white;
    font-style: italic;
-   font-size: 20px;
-   margin-left: 120px; 
-   margin-top: -80px;
+   font-size: 15px;
+
    /* background-color: black; */
 }
 
 .about{
     margin-top: 10px;
 }
-.about p {
-    float: left;
+button {
+    width: 150px;
     border: 2px solid black;
     padding: 15px;
     border-radius: 15px;
     height: px; 
+    background-color: black;
     color: white;
 }
 
-.about p:hover {
-    background-color:black;
+button:hover {
+    background-color:rgb(255, 255, 255);
+    color: black;
 }
 
 
